@@ -1,0 +1,27 @@
+
+<form>
+    <div class="form-actions">
+        <p><%= success %></p>
+        <button class="btn" type="button" onclick="Redirect()" id="btnRedirect">Go Back</button>
+    </div>
+</form>
+<script>
+    function Redirect() {
+        window.location.href = "/";
+    }
+</script>
+<style>
+    .btn {
+        display: block;
+        width: 10%;
+        padding: 10px;
+        background: #24b47e;
+        border: 1px solid rgba(0, 0, 0, .1);
+        border-width: 1px 1px 3px;
+        border-radius: 3px;
+        font: inherit;
+        color: #fff;
+        cursor: pointer;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 1px 1px rgba(0, 0, 0, .2);
+    }
+</style>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form method="POST" action="/scrapUrl" novalidate>
+      <div class="form-field">
+        <label for="scraping Url">Scrap Url</label>
+        <input type="text" id="urlId" name="scrap" class="input" value="" />
+      </div>
+      <div class="form-actions">
+          <button class="btn" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
